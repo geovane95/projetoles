@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>ProjetoLes - Inserir Livro</title>
+</head>
+<body>
+    <header class="jumbotron">
+        <h1>ProjetoLes - Inserir Livro</h1>
+    </header>
+    <section>
+        <article class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form role="form" action="listarLivro.html" method="post"
+                      class="form-horizontal">
+                    <fieldset>
+                        <legend>
+                            <h1>Cadastro de Livro</h1>
+                        </legend>
+                        <div class="">
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Título do Livro</label>
+                                <div class="col-md-10">
+                                    <input required type="text" class="form-control" id="titulo"
+                                           name="titulo" placeholder="Entre com nome do livro"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Sinopse</label>
+                                <div class="col-md-10">
+                                    <textarea required class="form-control" id="sinopse"
+                                              name="sinopse" placeholder="Sinopse"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="categoria" class="col-md-2 control-label">Categoria</label>
+                                <div class="col-md-10">
+                                    <select required class="form-control" id="categoria"
+                                            name="categoria" multiple>
+                                        <option value="0" selected>Categoria 1</option>
+                                        <option value="1" selected>Categoria 2</option>
+                                        <option value="2" selected>Categoria 3</option>
+                                        <option value="3" selected>Categoria 4</option>
+                                        <option value="4" selected>Categoria 5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="autor" class="col-md-2 control-label">Autor</label>
+                                <div class="col-md-10">
+                                    <select required class="form-control" id="autor"
+                                            name="autor" multiple>
+                                        <option value="0" selected>Autor 1</option>
+                                        <option value="1" selected>Autor 2</option>
+                                        <option value="2" selected>Autor 3</option>
+                                        <option value="3" selected>Autor 4</option>
+                                        <option value="4" selected>Autor 5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="">
+                                <button type='submit' class='btn btn-default' id='operacao'
+                                            name='operacao' value='Salvar'>SALVAR</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+        </article>
+    </section>
+    <footer class="text-center">
+        <h4>ProjetoLes</h4>
+    </footer>
+</body>
+</html>
