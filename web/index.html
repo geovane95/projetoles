@@ -1,0 +1,144 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>ProjetoLes</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<style type="text/css">
+		.jumbotron, .navbar{
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+		.card{
+			float: left;
+			margin: 1.5%;
+		}
+	</style>
+</head>
+<body>
+<header class="jumbotron">
+	<h1>ProjetoLes</h1>
+</header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="#">Navbar</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="cadastroLocatario.html">Cadasto de Locatário</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Livros
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Cadastrar Livro</a>
+					<a class="dropdown-item" href="#">Consultar Livro</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Locatários
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Cadastrar Locatário</a>
+					<a class="dropdown-item" href="#">Consultar Locatário</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Reservas
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Reservar Livro</a>
+					<a class="dropdown-item" href="#">Consultar Reservas</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Empréstimos
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Realizar Empréstimo</a>
+					<a class="dropdown-item" href="#">Consultar Empréstimo</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Usuários
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Cadastrar Usuário</a>
+					<a class="dropdown-item" href="#">Consultar Usuário</a>
+				</div>
+			</li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0" action="busca.html">
+			<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" nome="busca" id="busca">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+		</form>
+	</div>
+</nav>
+<section>
+	<article class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<div class="card col-md-3">
+				<div class="card-body">
+					<h5 class="card-title">Devoluções para Hoje</h5>
+					<ul>
+						<li><a href="#">45768657</a></li>
+						<li><a href="#">87326328</a></li>
+						<li><a href="#">10987298</a></li>
+						<li><a href="#">28949309</a></li>
+						<li><a href="#">27653849</a></li>
+					</ul>
+					<a href="#" class="btn btn-primary">Ver Empréstimos</a>
+				</div>
+			</div>
+			<div class="card col-md-3">
+				<div class="card-body">
+					<h5 class="card-title">Reservas de hoje</h5>
+					<ul>
+						<li><a href="#">Livro 1 para Usuário 1</a></li>
+						<li><a href="#">Livro 1 para Usuário 1</a></li>
+						<li><a href="#">Livro 1 para Usuário 1</a></li>
+						<li><a href="#">Livro 1 para Usuário 1</a></li>
+						<li><a href="#">Livro 1 para Usuário 1</a></li>
+					</ul>
+					<a href="#" class="btn btn-primary">Ver Reservas</a>
+				</div>
+			</div>
+			<div class="card col-md-3">
+				<div class="card-body">
+					<h5 class="card-title">Tranferencias de hoje</h5>
+					<ul>
+						<li><a href="#">45768657</a></li>
+						<li><a href="#">87326328</a></li>
+						<li><a href="#">10987298</a></li>
+						<li><a href="#">28949309</a></li>
+						<li><a href="#">27653849</a></li>
+					</ul>
+					<a href="#" class="btn btn-primary">Ver Transferencias</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</article>
+</section>
+<footer class="text-center">
+	<h4>ProjetoLes</h4>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<html>
+<head>
+    <title>ProjetoLes - Alterar Locatario</title>
+</head>
+<body>
+<header class="jumbotron">
+    <h1>ProjetoLes - Alterar Locatario</h1>
+</header>
+<section>
+    <article class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <form role="form" action="listarLocatario.html" method="post"
+                  class="form-horizontal">
+                <fieldset>
+                    <legend>
+                        <h1>Alterar de Locatario</h1>
+                    </legend>
+                    <div class="">
+                        <h3>Locatario</h3>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">ID</label>
+                            <div class="col-md-10">
+                                <input required type="text" class="form-control" id="id"
+                                       name="id" readonly/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Nome</label>
+                            <div class="col-md-10">
+                                <input required type="text" class="form-control" id="nome"
+                                       name="nome" placeholder="Nome do Usuário..."/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">E-mail</label>
+                            <div class="col-md-10">
+                                <input required type="email" class="form-control" id="email"
+                                       name="email" placeholder="emaillocatario@mail.com.br"/>
+                            </div>
+                        </div>
+                        <hr/>
+                        <h3>Endereço</h3>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Logradouro</label>
+                            <div class="col-md-7">
+                                <input required type="text" class="form-control" id="logradouro"
+                                       name="logradouro" placeholder="Rua: da Maria"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-1 control-label">Número</label>
+                            <div class="col-md-2">
+                                <input required type="number" class="form-control" id="numero"
+                                       name="numero" placeholder="00"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Bairro</label>
+                            <div class="col-md-3">
+                                <input required type="text" class="form-control" id="bairro"
+                                       name="bairro" placeholder="Rodeio"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Cidade</label>
+                            <div class="col-md-3">
+                                <input required type="text" class="form-control" id="cidade"
+                                       name="cidade" placeholder="Mogi das Cruzes"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-1 control-label">UF</label>
+                            <div class="col-md-1">
+                                <input required type="text" class="form-control" id="uf"
+                                       name="uf" placeholder="XX"/>
+                            </div>
+                        </div>
+                        <div class="">
+                            <button type='submit' class='btn btn-default' id='operacao'
+                                    name='operacao' value='Salvar'>SALVAR</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+    </article>
+</section>
+<footer class="text-center">
+    <h4>ProjetoLes</h4>
+</footer>
+</body>
+</html>
